@@ -1,46 +1,33 @@
-#  Student Performance Analytics & Prediction System
+# Student Performance Analytics & Prediction
 
-##  Overview
-An end-to-end data science project analyzing student performance using machine learning and dashboard visualization.
+An exploratory analytics and machine-learning project based on student performance data.
 
----
+## Repository contents
 
-##   Features
-- Data cleaning & feature engineering  
-- Exploratory Data Analysis (EDA)  
-- Machine Learning models:
-  - Linear Regression
-  - Ridge Regression
-  - Lasso Regression
-  - Decision Tree
-- Dashboard visualization using Looker Studio  
+- `data/StudentsPerformance.csv`: source data
+- `Project3_Final.ipynb`: analysis and modelling notebook
+- `screenshots/`: dashboard and chart screenshots
 
----
+## Project scope
 
-##   Results
-- Achieved R² score of approximately 0.88  
-- Identified key factors affecting student performance  
+The repository explores student-performance factors and experiments with regression models, including Linear Regression, Ridge, Lasso, and Decision Tree models. It also includes dashboard visualisations created in Looker Studio.
 
----
+## Visuals
 
-##  Dashboard Features
-- KPI cards  
-- Gender analysis  
-- Lunch impact analysis  
-- Preparation course insights  
-- Interactive visualizations  
+![Dashboard](screenshots/dashboard%20p3.png)
 
----
+![Charts](screenshots/p3%20charts.png)
 
-##  Tools Used
-- Python  
-- pandas  
-- seaborn  
-- matplotlib  
-- scikit-learn  
-- Looker Studio  
+## Technologies
 
----
+Python, pandas, seaborn, Matplotlib, scikit-learn, and Looker Studio.
 
-##  Outcome
-Built a complete analytics workflow including data preprocessing, machine learning, and dashboard visualization.
+## Reproducibility note
+
+The notebook contains the analysis. Before publishing a specific model result (such as an R² score), the README should state the target, preprocessing choices, evaluation split, and which model produced the value.
+
+## Next improvements
+
+- Add a dependency file and run instructions
+- Summarise the data-preparation and feature choices
+- Record model-comparison metrics in a compact results table
